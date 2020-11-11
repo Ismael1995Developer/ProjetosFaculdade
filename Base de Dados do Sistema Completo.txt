@@ -1,0 +1,32 @@
+create table autenticar
+(
+   usuario varchar(50) not null,
+   senha varchar(50) not null,
+   primary key(usuario)  	
+);
+
+insert into autenticar(usuario,senha)
+values ('administrador','ftec');
+
+create sequence id_endereco;
+
+create table enderecos
+(
+   id_endereco int not null default nextval('id_endereco'),
+   rua varchar(50) not null,
+   cep varchar(9),
+   bairro varchar(50) not null,
+   cidade varchar(50) not null,
+   estado varchar(2) not null,
+   primary key(id_endereco)  	
+);
+
+create sequence id_contato;
+
+create table contatos
+(
+       id_contato int not null default nextval('id_contato'),
+       nome varchar(50) not null,
+       telefone varchar(14) not null,
+       primary key(id_contato)	
+)

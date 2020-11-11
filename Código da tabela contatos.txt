@@ -1,0 +1,9 @@
+create sequence id_contato;
+
+create table contatos
+(
+       id_contato int not null default nextval('id_contato'),
+       nome varchar(50) not null,
+       telefone varchar(15) not null,
+       primary key(id_contato)	
+)
