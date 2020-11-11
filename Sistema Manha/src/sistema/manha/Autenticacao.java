@@ -13,10 +13,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author Jason Santos
- */
+
 public class Autenticacao extends javax.swing.JInternalFrame {
 
     /**
