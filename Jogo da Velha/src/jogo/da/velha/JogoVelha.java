@@ -8,10 +8,7 @@ package jogo.da.velha;
 
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author Jason Santos
- */
+
 public class JogoVelha extends javax.swing.JFrame {
 
     /**
