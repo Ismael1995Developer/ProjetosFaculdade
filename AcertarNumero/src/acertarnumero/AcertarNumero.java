@@ -9,10 +9,8 @@ package acertarnumero;
 import java.util.Random;
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author Jason Santos
- */
+
+ 
 public class AcertarNumero extends javax.swing.JFrame {
 
     /**
